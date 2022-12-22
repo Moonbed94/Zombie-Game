@@ -866,7 +866,7 @@ PrefabInstance:
     - target: {fileID: 5866666021909216657, guid: af7ebbae2a2dd9645b85a7ec3f4ae1cc, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: a1369f736e784594b991ba1f05bc2362, type: 2}
+      objectReference: {fileID: 9100000, guid: 9b53692a88b686849a70bdd6a7c351de, type: 2}
     m_RemovedComponents: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 1299364353015151170, guid: af7ebbae2a2dd9645b85a7ec3f4ae1cc, type: 3}
@@ -1049,10 +1049,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2082f6616b88ce479da953aacd48c34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  rotationSpeed: 720
-  jumpSpeed: 5
+  controller: {fileID: 1242490905}
   cam: {fileID: 971138333}
+  turnSmoothVelocity: 0
+  turnSmoothTime: 0.1
+  speed: 2
+--- !u!114 &1242490910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242490901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 232afe7bd9f91584e8cb9e0820abaac2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1526724979
 GameObject:
   m_ObjectHideFlags: 0
